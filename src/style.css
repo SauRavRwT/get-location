@@ -1,0 +1,38 @@
+:root {
+  --doc-height: calc(100% - 100px);
+}
+
+.map {
+  position: relative;
+}
+
+#mapContainer {
+  width: 100%;
+  height: var(--doc-height);
+}
+
+.b {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  padding: 20px 20px;
+}
+
+.b1 {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  padding: 20px 20px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #496989;
+  border-radius: 10px;
+  border: 1px solid #496989;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
